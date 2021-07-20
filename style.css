@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+html,
+body {
+  margin: 0;
+}
+.image {
+  width: 20%;
+  height: auto;
+}
+.full-screen-container {
+  background-image: url(wallpaper.jpg);
+  background-size: cover;
+  height: 100%;
+  width:100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.login-container {
+  background-color: hsla(221, 97%, 12%, 0.623);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  padding: 10px 20px;
+  min-height: 150px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 40px;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.input-group label {
+  color: white;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin-bottom: 7px;
+}
+
+.input-group input {
+  font-size: 1.5em;
+  padding: 0.1em 0.25em;
+  background-color: hsla(201, 100%, 91%, 0.3);
+  border: 1px solid hsla(201, 100%, 91%);
+  outline: none;
+  border-radius: 500px;
+  color: white;
+  font-weight: lighter;
+  /* in the top of the class we removed all default style of the inputs */
+}
+.input-group input:focus {
+  border: 1px solid hsla(201, 100%, 50%);
+}
+.login-button {
+  padding: 1px 1px;
+  width: 100%;
+  border-radius: 500px;
+  background-color: hsla(201, 100%, 50%, 0.1);
+  border: 1px solid hsla(201, 100%, 50%);
+  outline: none;
+  font-size: 1.5em;
+  color: white;
+  font-weight: lighter;
+  margin-top: 20px;
+  cursor: pointer
+    /* دى عشان تخلى الماوس مجرد ما يتحط على الخانة يعمل اكنه بيكليك */;
+}
+.login-title {
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+.label {
+  margin-top: 10px;
+  margin-left: 0px;
+  color: white;
+}
+
+.other-link {
+  margin-top: 25px;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: white;
+}
+.login-button:hover {
+  background-color: hsla(201, 100%, 50%, 0.3);
+}
+.login-button:focus {
+  background-color: hsla(201, 100%, 50%, 0.5);
+}
+.Rememmber {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: white;
+}
