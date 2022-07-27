@@ -14,7 +14,7 @@ body {
 .full-screen-container {
   background-image: url(wallpaper.jpg);
   background-size: cover;
-  height: 100%;
+  height: 926px;
   width: 100%;
   background-position: center;
   display: flex;
